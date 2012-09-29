@@ -1,0 +1,109 @@
+
+.MTrimmedWindow.topLevel {
+			 margin-top: 7px;
+			 margin-bottom: 2px;
+			 margin-left: 2px;
+			 margin-right: 2px;
+}
+
+.MPartStack {
+	    font-size: 11;
+	    font-family: 'Lucida Grande';
+	    swt-simple: true;
+	    swt-tab-renderer:
+		url('bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.ChromeTabRendering');
+
+		padding: 1px 6px 8px 6px; /* top left bottom right */
+		swt-tab-outline: #b6bccc;
+		swt-outer-keyline-color: #b6bccc;
+		swt-unselected-tabs-color: #dcdcdc #cecece #eeeeee 99% 100%;
+		swt-shadow-visible: true;
+		
+		swt-selected-tab-fill: #eeeeee;
+		chrome-selected-tab-fill-highlight: #eeeeee;
+		
+		chrome-selected-tab-color: #000000;
+		chrome-unselected-tab-color: #000000;
+		
+		swt-shadow-color: #818284;
+		
+		chrome-shiney-shadow: true;
+		swt-mru-visible: true;
+		
+		swt-corner-radius: 9px;
+}
+
+.MPartStack.active {
+		   swt-inner-keyline-color: #FFFFFF;
+		   swt-tab-outline: #9d9d9d;
+		   swt-outer-keyline-color: #9d9d9d;
+		   swt-unselected-tabs-color: #dddddd #cecece #eeeeee 99% 100%;
+		   
+		   swt-selected-tab-fill: #eeeeee;
+		   chrome-selected-tab-fill-highlight: #eeeeee;
+		   
+		   chrome-selected-tab-color: #000000;
+		   chrome-unselected-tab-color: #000000;
+		   chrome-shiney-shadow: true;
+}
+
+.MPartStack.empty {
+		  swt-unselected-tabs-color: #dedede #dedede #dedede 99% 100%;
+		  swt-tab-outline: #b8becc;
+		  swt-outer-keyline-color: #b8becc;
+}
+
+.MTrimmedWindow {
+  		margin-top: 2px;
+		margin-bottom: 2px;
+		margin-left: 0px;
+		margin-right: 0px;
+		background-color: #dcdcdc;
+}
+
+.MTrimBar {
+	  background-color: #dcdcdc;
+}
+
+.MTrimBar#org-eclipse-ui-main-toolbar {
+				      background-color: #f3f5fa #dcdcdc;
+}
+
+.MToolControl.TrimStack {
+			frame-image: url("images/jeeeyul-TSFrame.png");
+			handle-image: url("images/jeeeyul-Handle.png");
+			frame-cuts: 5px 1px 5px 16px;
+}
+
+#PerspectiveSwitcher {
+		     eclipse-perspective-keyline-color: #dcdcdc;
+		     background-color: #f5f7fc #dcdcdc 100%;
+}
+
+CTabFolder.MArea .MPartStack,CTabFolder.MArea .MPartStack.active {
+		 swt-shadow-visible: false;
+}
+
+CTabFolder Canvas {
+	   background-color: #F8F8F8;
+}
+
+#org-eclipse-ui-editorss {
+			 swt-tab-renderer:
+				url('bundleclass://org.eclipse.e4.ui.workbench.renderers.swt/org.eclipse.e4.ui.workbench.renderers.swt.CTabRendering');
+				swt-unselected-tabs-color: #F0F0F0 #F0F0F0 #F0F0F0 100% 100%;
+				swt-outer-keyline-color: #B4B4B4;
+				swt-inner-keyline-color: #F0F0F0;
+				swt-tab-outline: #F0F0F0;
+				color: #F0F0F0;
+				swt-tab-height: 8px;
+				padding: 0px 5px 7px;
+}
+
+#org-eclipse-ui-trim-status{
+	chrome-border-top-visible: false;
+}
+
+Tree {
+     background-color: #eeeeee;
+}
